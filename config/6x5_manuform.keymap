@@ -125,11 +125,11 @@
 
         navigation {
             bindings = <
-&none  &none         &none               &kp PAGE_UP    &none                &none                &none                  &none            &none            &none                &none  &none
-&none  &none         &kp LA(LEFT_ARROW)  &kp UP_ARROW   &kp LA(RIGHT_ARROW)  &none                &kp LC(LS(PAGE_DOWN))  &kp LC(LS(TAB))  &kp LC(TAB)      &kp LC(LS(PAGE_UP))  &none  &none
-&none  &kp LG(LEFT)  &kp LEFT_ARROW      &kp DOWN       &kp RIGHT            &kp RG(RIGHT_ARROW)  &mmv MOVE_LEFT         &mmv MOVE_DOWN   &mmv MOVE_UP     &mmv MOVE_RIGHT      &none  &none
-&none  &none         &none               &kp PAGE_DOWN  &none                &none                &msc SCRL_LEFT         &msc SCRL_DOWN   &msc SCRL_UP     &msc SCRL_RIGHT      &none  &none
-&none  &none         &none               &none          &mkp LCLK            &none                &none                  &kp DELETE       &kp RIGHT_SHIFT  &none                &none  &none
+&none  &none         &none               &kp PAGE_UP    &none                &none                &none                &none            &none            &none                  &none  &none
+&none  &none         &kp LA(LEFT_ARROW)  &kp UP_ARROW   &kp LA(RIGHT_ARROW)  &none                &kp LC(LS(PAGE_UP))  &kp LC(LS(TAB))  &kp LC(TAB)      &kp LC(LS(PAGE_DOWN))  &none  &none
+&none  &kp LG(LEFT)  &kp LEFT_ARROW      &kp DOWN       &kp RIGHT            &kp RG(RIGHT_ARROW)  &mmv MOVE_LEFT       &mmv MOVE_DOWN   &mmv MOVE_UP     &mmv MOVE_RIGHT        &none  &none
+&none  &none         &none               &kp PAGE_DOWN  &none                &none                &msc SCRL_LEFT       &msc SCRL_DOWN   &msc SCRL_UP     &msc SCRL_RIGHT        &none  &none
+&none  &none         &kp C_NEXT          &none          &mkp LCLK            &kp C_PREVIOUS       &none                &kp DELETE       &kp RIGHT_SHIFT  &none                  &none  &none
             >;
         };
 
