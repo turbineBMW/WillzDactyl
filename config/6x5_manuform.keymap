@@ -88,7 +88,7 @@
 
         warpd {
             bindings = <&warpEngage>;
-            key-positions = <52 55>;
+            key-positions = <51 56>;
         };
     };
 
