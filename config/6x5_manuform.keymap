@@ -122,7 +122,7 @@
 &kp TAB                                 &kp Q                   &kp W            &kp E             &kp R                     &kp T              &kp Y                 &kp U                     &kp I             &kp O                 &kp P                      &kp MINUS
 &hml LS(LA(LC(LEFT_GUI))) LEFT_BRACKET  &kp A                   &kp S            &kp D             &hml LEFT_SHIFT F         &kp G              &kp H                 &hmr RIGHT_SHIFT J        &kp K             &kp L                 &kp SEMI                   &kp SQT
 &hll 2 RIGHT_BRACKET                    &kp Z                   &kp X            &kp C             &hll 1 V                  &kp B              &kp N                 &hlr 1 M                  &kp COMMA         &kp DOT               &kp SLASH                  &hlr 2 BACKSLASH
-&kp C_PLAY_PAUSE                        &hml LEFT_ALT CAPSLOCK  &kp C_VOLUME_UP  &hml LCTRL SPACE  &mouseorkey LEFT_GUI MB1  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_INC  &hmr RIGHT_GUI BACKSPACE  &hmr RCTRL ENTER  &kp C_BRIGHTNESS_DEC  &mouseorkey RIGHT_ALT MB2  &kp LC(LG(Q))
+&kp C_PLAY_PAUSE                        &hml LEFT_WIN CAPSLOCK  &kp C_VOLUME_UP  &hml LCTRL SPACE  &mouseorkey LEFT_ALT MB1  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_INC  &hmr RIGHT_ALT BACKSPACE  &hmr RCTRL ENTER  &kp C_BRIGHTNESS_DEC  &mouseorkey RIGHT_WIN MB2  &kp LC(LG(Q))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
