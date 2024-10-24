@@ -143,11 +143,11 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-&none             &kp N1                &kp N2           &kp N3            &kp N4             &kp N5             &kp N6           &kp N7                    &kp N8            &kp N9             &kp N0                &none
-&kp EQUAL         &kp Q                 &kp W            &kp E             &kp R              &kp T              &kp Y            &kp U                     &kp I             &kp O              &kp P                 &kp MINUS
-&kp GRAVE         &kp A                 &kp S            &kp D             &hml LEFT_SHIFT F  &kp G              &kp H            &hmr RIGHT_SHIFT J        &kp K             &kp L              &kp SEMI              &kp SQT
-&hll 2 CAPS       &kp Z                 &kp X            &kp C             &hll 1 V           &kp B              &kp N            &hlr 1 M                  &kp COMMA         &kp DOT            &kp SLASH             &hlr 2 BACKSLASH
-&kp C_PLAY_PAUSE  &hml LEFT_GUI ESCAPE  &kp C_VOLUME_UP  &hml LCTRL SPACE  &mt LEFT_ALT TAB   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &hmr RIGHT_ALT BACKSPACE  &hmr RCTRL ENTER  &kp C_VOLUME_DOWN  &mt RIGHT_GUI DELETE  &kp K_PLAY_PAUSE
+&kp K_PLAY_PAUSE  &kp N1                &kp N2           &kp N3            &kp N4             &kp N5             &kp N6      &kp N7                    &kp N8            &kp N9          &kp N0                &none
+&kp EQUAL         &kp Q                 &kp W            &kp E             &kp R              &kp T              &kp Y       &kp U                     &kp I             &kp O           &kp P                 &kp MINUS
+&kp GRAVE         &kp A                 &kp S            &kp D             &hml LEFT_SHIFT F  &kp G              &kp H       &hmr RIGHT_SHIFT J        &kp K             &kp L           &kp SEMI              &kp SQT
+&hll 2 CAPS       &kp Z                 &kp X            &kp C             &kp V              &kp B              &kp N       &kp M                     &kp COMMA         &kp DOT         &kp SLASH             &hlr 2 BACKSLASH
+&mo 1             &hml LEFT_GUI ESCAPE  &kp C_VOLUME_UP  &hml LCTRL SPACE  &mt LEFT_ALT TAB   &kp C_VOLUME_DOWN  &kp K_NEXT  &hmr RIGHT_ALT BACKSPACE  &hmr RCTRL ENTER  &kp K_PREVIOUS  &mt RIGHT_GUI DELETE  &mo 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -155,11 +155,11 @@
 
         navigation {
             bindings = <
-&none  &none         &none               &kp PAGE_UP    &none                &none                &none                &none            &none            &none                  &none  &none
-&none  &none         &kp LA(LEFT_ARROW)  &kp UP_ARROW   &kp LA(RIGHT_ARROW)  &none                &kp LC(LS(PAGE_UP))  &kp LC(LS(TAB))  &kp LC(TAB)      &kp LC(LS(PAGE_DOWN))  &none  &none
-&none  &kp LG(LEFT)  &kp LEFT_ARROW      &kp DOWN       &kp RIGHT            &kp RG(RIGHT_ARROW)  &mmv MOVE_LEFT       &mmv MOVE_DOWN   &mmv MOVE_UP     &mmv MOVE_RIGHT        &none  &none
-&none  &none         &none               &kp PAGE_DOWN  &none                &none                &msc SCRL_LEFT       &msc SCRL_DOWN   &msc SCRL_UP     &msc SCRL_RIGHT        &none  &none
-&none  &none         &kp C_NEXT          &none          &mkp LCLK            &kp C_PREVIOUS       &none                &kp DELETE       &kp RIGHT_SHIFT  &none                  &none  &none
+&none  &none     &none               &kp PAGE_UP     &none                &none    &none                &none            &none            &none                  &none      &none
+&none  &none     &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT_ARROW)  &none    &kp LC(LS(PAGE_UP))  &kp LC(LS(TAB))  &kp LC(TAB)      &kp LC(LS(PAGE_DOWN))  &none      &none
+&none  &kp HOME  &kp LEFT_ARROW      &kp DOWN        &kp RIGHT            &kp END  &mmv MOVE_LEFT       &mmv MOVE_DOWN   &mmv MOVE_UP     &mmv MOVE_RIGHT        &none      &none
+&none  &none     &none               &kp PAGE_DOWN   &none                &none    &msc SCRL_LEFT       &msc SCRL_DOWN   &msc SCRL_UP     &msc SCRL_RIGHT        &none      &none
+&none  &none     &none               &kp LEFT_SHIFT  &none                &none    &none                &mkp LCLK        &kp RIGHT_SHIFT  &none                  &mkp RCLK  &none
             >;
         };
 
